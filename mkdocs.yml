@@ -1,0 +1,12 @@
+site_name: Kitchen Road
+repo_url: "https://github.com/Kitchen-Road"
+edit_uri: ""
+
+theme: 
+  name: material
+  features: navigation.tabs
+  palette:
+    primary: red
+
+nav:
+  - Início: "index.md"

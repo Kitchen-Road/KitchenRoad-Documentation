@@ -1,5 +1,3 @@
-# KitchenRoad-Documentation
-
 ## Sobre
 
 Você está buscando aprender a arte da cozinha? Quer se tornar um cozinheiro melhor que Érick Jacquin? Seu problemas acabaram! 
