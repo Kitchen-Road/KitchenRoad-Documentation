@@ -10,3 +10,5 @@ theme:
 
 nav:
   - Início: "index.md"
+  - Projeto: 
+    - Documento de arquitetura: "projeto/documento_arquitetura.md"
