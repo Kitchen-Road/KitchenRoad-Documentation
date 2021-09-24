@@ -1,10 +1,10 @@
 ## Sobre
 
-Você está buscando aprender a arte da cozinha? Quer se tornar um cozinheiro melhor que Érick Jacquin? Seu problemas acabaram! 
+Você está buscando aprender a arte da cozinha? Quer tornar-se um cozinheiro melhor que Érick Jacquin? Seus problemas acabaram!
 
-Conheça Kitchen Road, uma plataforma gamificada que ajudará você a aprender a cozinhar. Não tem problema se você não consegue cozinhar um ovo, o Kitchen-road é capaz de reconhecer o seu nível na cozinha e lhe direcionar dicas e um caminho de receitas para ser executado.
+Conheça Kitchen Road, uma plataforma gamificada que ajudará você a aprender a cozinhar. Não tem problema se você não consegue cozinhar um ovo, o Kitchen-road consegue reconhecer o seu nível na cozinha e lhe direcionar dicas e um caminho de receitas para ser executado.
 
-O intuito do projeto é ensinar as pessoas a cozinhar de uma forma mais interativa e divertido. 
+O intuito do projeto é ensinar as pessoas a cozinhar de modo interativa e divertido.
 
 ## Equipe
 <center><table>
