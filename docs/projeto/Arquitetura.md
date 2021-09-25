@@ -40,24 +40,55 @@ Este documento é dividio nas seguintes seções:
 
 ## 4. Visão de Dados
 
-### 4.1. Modelo Entidade Relacionamento
+### 4.1. Modelo Entidade Relacionamento(MER)
 
 #### Cozinheiro
 
-| Atributos                | Propriedade                | Tipo      | Descrição                                     |
-|--------------------------|----------------------------|-----------|-----------------------------------------------|
-| idCozinheiro             | Chave primária obrigatória | Integer   | Identificador do cozinheiro                   |
-| nome                     | Obrigatório                | String    | Nome do cozinheiro                            |
-| email                    | Obrigatório                | String    | Email do cozinheiro                           |
-| senha                    | Obrigatório                | String    | Senha de login                                |
-| listaReceitasCompletadas | Optativo                   | Receita   | Lista de receitas que o cozinheiro já efetuou |
-| listaConquistaAdquiridas | Optativo                   | Conquista | Lista de conquistas que o cozinheiro adquiriu |
+| Atributos| Propriedade| Tipo| Descrição|
+|--|--|--|--|
+|idCozinheiro|Chave primária obrigatória|Integer|Identificador do cozinheiro|
+|nome|Obrigatório|String|Nome do cozinheiro|
+|email|Obrigatório|String|Email do cozinheiro|
+|senha|Obrigatório|String|Senha de login|
+|listaReceitasCompletadas|Optativo|Receita|Lista de receitas que o cozinheiro já efetuou|
+|listaConquistaAdquiridas|Optativo|Conquista|Lista de conquistas que o cozinheiro adquiriu|
 
 #### Receita
+
+| Atributos | Propriedade | Tipo | Descrição |
+|---|---|---|---|
+| idReceita | Chave primária obrigatória | Integer | Identificador da receita |
+| nome | Obrigatório | String | Nome da receita |
+| modoPreparo | Obrigatório | String | passo a passo de como preparar a receita |
+| dificuldade | Obrigatório | char | identifica a difícil da receita |
+| listaCategoria | Obrigatório | Categoria | lista que identifica a categoria que pertence a receita |
+
 #### Categoria
+
+| Atributos | Propriedade | Tipo | Descrição |
+|---|---|---|---|
+| idCategoria | Chave primária obrigatória | Integer | Identificador da categoria |
+| nome | Obrigatório | String | Nome da categoria |
+
 #### Dicas
+
+
+| Atributos | Propriedade | Tipo | Descrição |
+|---|---|---|---|
+| idDicas | Chave primária obrigatória | Integer | Identificador da dicas |
+| titulo | Obrigatório | String | Título da dica |
+| conteúdoDica | Obrigatório | String | Conteúdo escrito da dica |
+| dificuldade | Obrigatório | char | Define o nível de dificuldade da dica |
+
 #### Conquista
 #### Administrador
+
+|Atributos|Propriedade|Tipo|Descrição|
+|--|--|--|--|
+|idAdministrador|Chave primária obrigatória|Integer|Identificador do administrador|
+|username|Obrigatório|String|Username do administrador|
+|email|Optativo|String|Email do administrador|
+|senha|Obrigatório|String|Senha de login|
 
 ## Visão de caso de uso
 
