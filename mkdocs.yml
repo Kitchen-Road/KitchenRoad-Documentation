@@ -16,4 +16,5 @@ nav:
       - Documento de Visão: "projeto/Documento_de_visao.md"
   - Produto:
       - Backlog: "produto/Product_backlog.md"
-      
+      - Protótipo: "produto/Protótipo.md"
+      - Guia de estilo: "produto/Style_guide.md"
