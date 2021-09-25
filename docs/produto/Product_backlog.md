@@ -32,14 +32,12 @@ O tema de investimento foi definido como **Gamificação da culinária**.
 
 ## 3. User Stories
 
-| Épico | FEATURE | DESCRIÇÃO |  |  |  |
-|---|---|---|---|---|---|
-| E1 | FT1 | Cadastro e login de usuário. |  |  |  |
 | Épico | Feature | US | Descrição | Critérios de aceitação | Pontuação |
+|---|---|---|---|---|---|
 | E1 | FT1 | US01 | Eu como usuário gostaria de me cadastrar na plataforma para que possa utilizar o sistema. | - Os usuários devem conseguir acesso à plataforma após o cadastro. | 8 |
 | E1 | FT1 | US02 | Eu como usuário gostaria de logar no sistema por meio de redes sociais ou pelo cadastro da própria plataforma para que possa acessar o sistema. | - O usuário deve conseguir acessar as funcionalidades do sistema após realizar o login. | 8 |
 | E1 | FT1 | US03 | Eu como usuário gostaria de recuperar minha senha para que eu possa readquirir acesso ao sistema. | - Os usuários devem conseguir recuperar ou restaurar a senha a qualquer momento, e ter acesso a plataforma com o novo texto-chave. | 13 |
-| E1 | FT1 | US04 | Eu como cozinheiro gostaria de fazer um quiz para que eu possa saber em que nível de conhecimento estou. | - O quiz deve garantir no final qual é nível de experiência do cozinheiro(Iniciante/Intermediário/Experiente). - O usuário só terá acesso a esse quiz quando for cadastrar na plataforma. | 5 |
+| E1 | FT1 | US04 | Eu como cozinheiro gostaria de fazer um quiz para que eu possa saber em que nível de conhecimento estou. | - O quiz deve garantir no final qual é  nível de experiência do cozinheiro(Iniciante/Intermediário/Experiente). - O usuário só terá acesso a esse quiz quando for cadastrar na plataforma. | 5 |
 | E2 | FT2 | US05 | Eu como administrador, quero registrar receitas, para que os usuários possam visualizá-las. | - A receita deve conter os ingredientes e modo de preparo. - Os usuários devem ser capazes de visualizá-las. | 8 |
 | E2 | FT2 | US06 | Eu como administrador quero excluir receitas, para que receitas incorretas possam ser retiradas. | - Os usuários não devem poder visualizar as receitas excluídas. - Deve ser apresentado um diálogo de confirmação para o administrador ao tentar excluir . | 8 |
 | E2 | FT2 | US07 | Eu como administrador quero registrar categorias de receitas, para que os cozinheiros possam filtrá-las. | - Os usuários devem ser capazes de visualizá-las. | 10 |
@@ -52,14 +50,10 @@ O tema de investimento foi definido como **Gamificação da culinária**.
 | E2 | FT4 | US14 | Eu como cozinheiro quero favoritar receitas, para que consiga separar minhas receitas favoritas das gerais. | - O usuário deve ter acesso às receitas favoritas em uma sessão separada. - Uma opção de favoritar deve estar presente na página da receita | 24 |
 | E2 | FT4 | US15 | Eu como cozinheiro gostaria de dar um feedback às receitas para que outros usuários possam ver. | - O usuário deve conseguir avaliar as receitas. - Os usuários devem conseguir visualizar as avaliações das receitas. | 13 |
 | E2 | FT5 | US16 | Eu como administrador quero ver o feedback cedido pelos usuários, para que possa melhorar o sistema. | - Os feedbacks devem estar organizados numa sessão própria aos administradores. | 6 |
-| E2 | FT5 | US17 | Eu como cozinheiro gostaria de receber sugestões que eu possa melhorar meus conhecimentos. | - Deve haver sugestões relacionadas a receita | 10 |
+| E2 | FT5 | US17 | Eu como cozinheiro gostaria de receber sugestões que eu possa  melhorar meus conhecimentos. | - Deve haver sugestões relacionadas a receita | 10 |
 | E2 | FT5 | US18 | Eu como cozinheiro gostaria de denunciar a postagem de outro usuário, para que o conteúdo ofensivo seja moderado. | - Ao acessar a postagem, o usuário deve conseguir denunciar aquele post. | 13 |
 | E3 | FT6 | US19 | Eu como desenvolvedor gostaria de criar conquistas para o usuário, de modo que ele tenha um troféu que mostra a evolução do caminho dele. | - As conquistas serão obtidas e visualizadas pelo usuário após ele ter cumprido o desafio proposto. | 13 |
 | E3 | FT6 | US20 | Eu como administrador gostaria de realizar um sistema de ranking de usuários para que eles possam se empenhar mais. | - O ranking deve ser atualizado instantaneamente. - Os 10 melhores receberão um prêmio, podendo ser conquistas, moedas e até descontos em lojas. | 20 |
 | E3 | FT6 | US21 | Eu como cozinheiro quero concluir receitas para que eu possa avançar de nível na plataforma. | - O usuário deve conseguir marcar a receita como feita. - Ao realizar uma receita, a experiência do usuário deve aumentar. | 5 |
 | E3 | FT6 | US22 | Eu como cozinheiro gostaria de ver minhas conquistas para que eu possa acompanhar meu progresso. | - O usuário deve acessar seu histórico de conquistas. | 10 |
 | E3 | FT7 | US23 | Eu como cozinheiro quero que a plataforma tenha um cronômetro para não errar o tempo de cada etapa da receita. | - A plataforma deve ter um cronômetro disponível para o usuário. - O usuário deve conseguir iniciar, pausar e interromper a contagem do cronômetro. | 6 |
-| E3 | FT7 | US24 | Eu como cozinheiro gostaria que o timer tenha uma indicação sonora ao terminar o tempo estipulado para que possa saber do momento de término sem olhar para o sistema. | - O cronômetro deve emitir um som para indicar o final do tempo. | 6 |
-| E4 | FT8 | US25 | Eu como usuário gostaria de ter acesso e visualizar o perfil de outros usuários para que eu possa interagir com mais com a comunidade. | - O usuário poderá acessar o perfil de outros, podendo visualizar o histórico de receitas, as conquistas e o nível de experiência. | 10 |
-| E4 | FT8 | US26 | Eu como cozinheiro gostaria de ter acesso a vídeos de culinária, para que eu veja como fazer a comida. | - Os vídeos deverão ser avaliados pelos administradores antes de poderem ser lançados na plataforma. - Os vídeos patrocinados deverão ser priorizados para o usuário. - O usuário poderá assistir pela própria plataforma ou pelo site original que o vídeo foi lançado. | 5 |
-| E4 | FT8 | US27 | Eu como cozinheiro gostaria de chamar outro cozinheiro para uma batalha culinária para que possamos evoluir nosso perfil. | - Deve ser apresentado uma mensagem de desafio para o usuário quando ele for requisitado. - O usuário poderá ver o perfil do desafiado ou de quem está desafiando. - O usuário desafiado pode recusar ou aceitar o desafio. | 20 |
