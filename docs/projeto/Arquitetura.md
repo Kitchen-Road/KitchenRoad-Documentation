@@ -50,8 +50,7 @@ Este documento é dividio nas seguintes seções:
 |React.js|Biblioteca em javascript com foco em criar inteface de usuário em páginas web.|
 |HTML 5|Será utiliza para implementação do frontend junto ao JS e CSS|
 |CSS|Linguagem para estilização de uma interface web|
-|Bootstrap|Framework para desenvolvimento em HTML e JS.
-|
+|Bootstrap|Framework para desenvolvimento em HTML e JS.|
 |||
 |**Banco de dados**||
 |SQLite 3|Banco de dados relacional, será usado para gerir a base de dados|
