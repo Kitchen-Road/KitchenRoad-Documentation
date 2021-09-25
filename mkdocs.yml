@@ -12,7 +12,7 @@ theme:
 nav:
   - Início: "index.md"
   - Projeto:
-      - Documento de arquitetura: "projeto/Arquitetura.md"
+      - Documento de Arquitetura: "projeto/Arquitetura.md"
       - Documento de Visão: "projeto/Documento_de_visao.md"
   - Produto:
       - Backlog: "produto/Product_backlog.md"
