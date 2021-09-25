@@ -1,8 +1,9 @@
 site_name: Kitchen Road
 repo_url: "https://github.com/Kitchen-Road"
+site_description: Repositório do Kitchen Road
 edit_uri: ""
 
-theme: 
+theme:
   name: material
   features: navigation.tabs
   palette:
@@ -10,3 +11,5 @@ theme:
 
 nav:
   - Início: "index.md"
+  - Projeto:
+      - Documento de Visão: "Documento_de_visao.md"
