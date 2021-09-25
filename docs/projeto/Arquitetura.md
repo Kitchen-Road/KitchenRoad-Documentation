@@ -36,6 +36,27 @@ Este documento é dividio nas seguintes seções:
 
 ## 2.Representação de arquitetura
 
+### 2.2. Tecnologias
+
+|**Tecnologia**|**Descrição**|
+|--|--|
+|**Back-end**||
+|Python|Linguagem para o desenvolvimento do backend|
+|Django|Framework que segue a arquitetura MTV, fará comunicação do back com o banco de dados|
+|Django REST Framework|Framework Django que permite a criação simples, ágil, poderosa e flexível de API's Web|
+|||
+|**Front-end**||
+|JavaScript|Alia-se no desenvolvimento do frontend junto com HTML e CSS|
+|React.js|Biblioteca em javascript com foco em criar inteface de usuário em páginas web.|
+|HTML 5|Será utiliza para implementação do frontend junto ao JS e CSS|
+|CSS|Linguagem para estilização de uma interface web|
+|Bootstrap|Framework para desenvolvimento em HTML e JS.
+|
+|||
+|**Banco de dados**||
+|SQLite 3|Banco de dados relacional, será usado para gerir a base de dados|
+|||
+
 ## 3. Metas e restrições da arquitetura
 
 ## 4. Visão de Dados
